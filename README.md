@@ -40,7 +40,7 @@ xAI の Grok API が提供する `x_search` ツールを利用して、最新の
 
 #### Claude Code
 
-`settings.json` に以下を追加:
+プロジェクトルートの `.mcp.json` またはCLIで追加:
 
 ```json
 {
