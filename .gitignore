@@ -1,16 +1,7 @@
-__pycache__/
-*.py[cod]
-*.egg-info/
-dist/
+node_modules/
 build/
-.eggs/
 
 .env
-.venv/
-venv/
-
-.pytest_cache/
-.mypy_cache/
 
 *.log
 .DS_Store

@@ -1,0 +1,31 @@
+{
+  "name": "x-search-mcp",
+  "version": "0.1.0",
+  "description": "X (Twitter) 検索 MCP サーバー — Grok x_search API 経由でリアルタイムのX投稿を検索・分析",
+  "type": "module",
+  "bin": {
+    "x-search-mcp": "./build/index.js"
+  },
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": ["mcp", "x", "twitter", "grok", "xai", "search"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
